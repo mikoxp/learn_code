@@ -9,4 +9,4 @@ redis_connection.zadd("sorted_set_key",{"key5": 1})
 redis_connection.zadd("sorted_set_key",{"key4": 4})
 
 print(redis_connection.zrange("sorted_set_key",0, -1))
-print(redis_connection.zrange(withscores=True,"sorted_set_key",0, -1))
+print(redis_connection.zrange("sorted_set_key",0, -1,withscores=True))
