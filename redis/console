@@ -1,6 +1,7 @@
 https://mmazurek.dev/redis-i-python-dobrze-dobrana-para-10/?utm_source=fb_page&utm_medium=Mateusz%20Mazurek%20-%20mmazurek.dev&utm_campaign=publer&fbclid=IwAR0wXdKjFF5K5_Zrjc3shDoNZwjJMdYydxO9mFdxp3ZcWt7zAZ4uQfHApEY
 
 pip3 install redis
+pip3 install walrus
 
 docker container rm [container_id]
 python3 ping.py
