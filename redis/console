@@ -5,3 +5,5 @@ pip3 install walrus
 
 docker container rm [container_id]
 python3 ping.py
+
+hostname -I
