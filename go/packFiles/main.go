@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	val := "./test"
-	output := "./output"
+	val := "E:\\playlista"
+	output := "C:\\Users\\pcoles\\Downloads\\out"
 	ensureDir(output)
 	packFiles(val, output)
 
