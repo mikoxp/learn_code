@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"com.moles/example"
 	f "com.moles/functions"
 )
 
@@ -14,4 +15,7 @@ func main() {
 	fmt.Printf("%d + %d = %d\n", a, b, f.Add(a, b))
 	fmt.Printf("Factor n=%d is %d\n", n, f.Factor(n))
 	fmt.Printf("Fibonacci sequence n=%d is %d\n", n, f.Fibonacci(n))
+	fmt.Println("--------------------------")
+	example.Write()
+
 }
