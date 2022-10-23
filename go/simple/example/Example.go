@@ -32,6 +32,13 @@ func array() {
 	s = append(s, 2, 3, 4)
 	s = append(s, 2, 3, 4)
 	printArray(s)
+	makeArray := make([]string, 3)
+	fmt.Println(makeArray)
+	c := make([]int, len(s))
+	copy(c, s)
+	fmt.Println(s, c)
+	twoD := make([][]int, 3)
+	fmt.Println(twoD)
 
 }
 func printArray(s []int) {
