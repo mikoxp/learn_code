@@ -21,5 +21,6 @@ func main() {
 	fmt.Println(f.EratosthenesSieve(nn))
 	fmt.Println("--------------------------")
 	example.Write()
+	example.Figure()
 
 }

@@ -44,3 +44,12 @@ func array() {
 func printArray(s []int) {
 	fmt.Printf("len=%d cap=%d %v\n", len(s), cap(s), s)
 }
+
+func Figure() {
+	r := rect{a: 3, b: 4}
+	s := square{a: 3}
+	fmt.Printf("Rect a=%d b=%d field=%d perim=%d\n", r.a, r.b, r.field(), r.perim())
+	fmt.Printf("Squere a=%d  field=%d perim=%d\n", s.a, s.field(), s.perim())
+	DataGeometry(r)
+	DataGeometry(s)
+}
